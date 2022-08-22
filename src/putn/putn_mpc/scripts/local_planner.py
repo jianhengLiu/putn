@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 import rospy
 from std_msgs.msg import Bool, Float64, Float32MultiArray
 from geometry_msgs.msg import Pose, PoseArray, PoseStamped, Point, Twist
@@ -88,7 +88,7 @@ class Local_Planner():
         self.ob = []
         if(len(data.data)!=0):
 
-            size = len(data.data)/3
+            size = len(data.data)//3
             for i in range(size):
                 self.ob.append(( (data.data[3*i]//0.3)*0.3, (data.data[3*i+1]//0.3)*0.3) )
             dic = list(set([tuple(t) for t in self.ob]))
@@ -186,7 +186,7 @@ class Local_Planner():
     def _global_path_callback2(self, data):
         if(len(data.data)!=0):
             self.ref_path_set = True
-            size = len(data.data)/5
+            size = len(data.data)//5
             self.desired_global_path[1]=size
             for i in range(size):
                 self.desired_global_path[0][i,0]=data.data[5*(size-i)-5]
