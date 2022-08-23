@@ -16,7 +16,7 @@ class Local_Planner():
         self.replan_period = rospy.get_param('/local_planner/replan_period', 0.01)
         self.curr_state = np.zeros(5)
         self.z = 0
-        self.N = 10
+        self.N = 20
         self.goal_state = np.zeros([self.N,4])
         self.ref_path_close_set = False
         self.target_state = np.array([-1,4,np.pi/2])

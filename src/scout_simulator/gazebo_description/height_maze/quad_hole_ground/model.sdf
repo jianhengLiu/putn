@@ -1,0 +1,724 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="quad_hole_ground">
+
+    <include>
+      <name>c1</name>
+      <pose>10 18 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>c2</name>
+      <pose>2 18 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>c3</name>
+      <pose>-2 18 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>c4</name>
+      <pose>-2 10 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>c5</name>
+      <pose>6 10 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>c6</name>
+      <pose>-2 -2 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>c7</name>
+      <pose>-14 -18 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>c8</name>
+      <pose>6 -18 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>c9</name>
+      <pose>-14 -2 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>c10</name>
+      <pose>-14 -10 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>c11</name>
+      <pose>-10 -6 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>c12</name>
+      <pose>-10 -18 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>c13</name>
+      <pose>-14 14 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>c14</name>
+      <pose>-14 22 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>c15</name>
+      <pose>-10 14 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>c16</name>
+      <pose>-10 10 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>c17</name>
+      <pose>-6 10 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>c18</name>
+      <pose>-6 14 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>c19</name>
+      <pose>-2 6 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>c20</name>
+      <pose>14 -22 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>c21</name>
+      <pose>14 -14 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>c22</name>
+      <pose>-2 -22 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>c23</name>
+      <pose>-6 -22 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>c24</name>
+      <pose>6 14 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>c25</name>
+      <pose>14 10 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>c26</name>
+      <pose>6 -2 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>c27</name>
+      <pose>2 -6 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>c28</name>
+      <pose>2 -14 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>c29</name>
+      <pose>-2 -10 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+
+<!--    <include>-->
+<!--      <name>c1</name>-->
+<!--      <pose>10 18 0 0 0 0</pose>-->
+<!--      <uri>model://quad_hole_ground_center</uri>-->
+<!--    </include>-->
+<!--    <include>-->
+<!--      <name>c2</name>-->
+<!--      <pose>2 18 0 0 0 0</pose>-->
+<!--      <uri>model://quad_hole_ground_center</uri>-->
+<!--    </include>-->
+<!--    <include>-->
+<!--      <name>c3</name>-->
+<!--      <pose>-2 18 0 0 0 0</pose>-->
+<!--      <uri>model://quad_hole_ground_center</uri>-->
+<!--    </include>-->
+<!--    <include>-->
+<!--      <name>c4</name>-->
+<!--      <pose>-2 10 0 0 0 0</pose>-->
+<!--      <uri>model://quad_hole_ground_center</uri>-->
+<!--    </include>-->
+<!--    <include>-->
+<!--      <name>c5</name>-->
+<!--      <pose>6 10 0 0 0 0</pose>-->
+<!--      <uri>model://quad_hole_ground_center</uri>-->
+<!--    </include>-->
+<!--    <include>-->
+<!--      <name>c6</name>-->
+<!--      <pose>-2 -2 0 0 0 0</pose>-->
+<!--      <uri>model://quad_hole_ground_center</uri>-->
+<!--    </include>-->
+<!--    <include>-->
+<!--      <name>c7</name>-->
+<!--      <pose>-14 -18 0 0 0 0</pose>-->
+<!--      <uri>model://quad_hole_ground_center</uri>-->
+<!--    </include>-->
+<!--    <include>-->
+<!--      <name>c8</name>-->
+<!--      <pose>6 -18 0 0 0 0</pose>-->
+<!--      <uri>model://quad_hole_ground_center</uri>-->
+<!--    </include>-->
+<!--    <include>-->
+<!--      <name>c9</name>-->
+<!--      <pose>-14 -2 0 0 0 0</pose>-->
+<!--      <uri>model://quad_hole_ground_center</uri>-->
+<!--    </include>-->
+<!--    <include>-->
+<!--      <name>c10</name>-->
+<!--      <pose>-14 -10 0 0 0 0</pose>-->
+<!--      <uri>model://quad_hole_ground_center</uri>-->
+<!--    </include>-->
+<!--    <include>-->
+<!--      <name>c11</name>-->
+<!--      <pose>-10 -6 0 0 0 0</pose>-->
+<!--      <uri>model://quad_hole_ground_center</uri>-->
+<!--    </include>-->
+<!--    <include>-->
+<!--      <name>c12</name>-->
+<!--      <pose>-10 -18 0 0 0 0</pose>-->
+<!--      <uri>model://quad_hole_ground_center</uri>-->
+<!--    </include>-->
+<!--    <include>-->
+<!--      <name>c13</name>-->
+<!--      <pose>-14 14 0 0 0 0</pose>-->
+<!--      <uri>model://quad_hole_ground_center</uri>-->
+<!--    </include>-->
+<!--    <include>-->
+<!--      <name>c14</name>-->
+<!--      <pose>-14 22 0 0 0 0</pose>-->
+<!--      <uri>model://quad_hole_ground_center</uri>-->
+<!--    </include>-->
+<!--    <include>-->
+<!--      <name>c15</name>-->
+<!--      <pose>-10 14 0 0 0 0</pose>-->
+<!--      <uri>model://quad_hole_ground_center</uri>-->
+<!--    </include>-->
+<!--    <include>-->
+<!--      <name>c16</name>-->
+<!--      <pose>-10 10 0 0 0 0</pose>-->
+<!--      <uri>model://quad_hole_ground_center</uri>-->
+<!--    </include>-->
+<!--    <include>-->
+<!--      <name>c17</name>-->
+<!--      <pose>-6 10 0 0 0 0</pose>-->
+<!--      <uri>model://quad_hole_ground_center</uri>-->
+<!--    </include>-->
+<!--    <include>-->
+<!--      <name>c18</name>-->
+<!--      <pose>-6 14 0 0 0 0</pose>-->
+<!--      <uri>model://quad_hole_ground_center</uri>-->
+<!--    </include>-->
+<!--    <include>-->
+<!--      <name>c19</name>-->
+<!--      <pose>-2 6 0 0 0 0</pose>-->
+<!--      <uri>model://quad_hole_ground_center</uri>-->
+<!--    </include>-->
+<!--    <include>-->
+<!--      <name>c20</name>-->
+<!--      <pose>14 -22 0 0 0 0</pose>-->
+<!--      <uri>model://quad_hole_ground_center</uri>-->
+<!--    </include>-->
+<!--    <include>-->
+<!--      <name>c21</name>-->
+<!--      <pose>14 -14 0 0 0 0</pose>-->
+<!--      <uri>model://quad_hole_ground_center</uri>-->
+<!--    </include>-->
+<!--    <include>-->
+<!--      <name>c22</name>-->
+<!--      <pose>-2 -22 0 0 0 0</pose>-->
+<!--      <uri>model://quad_hole_ground_center</uri>-->
+<!--    </include>-->
+<!--    <include>-->
+<!--      <name>c23</name>-->
+<!--      <pose>-6 -22 0 0 0 0</pose>-->
+<!--      <uri>model://quad_hole_ground_center</uri>-->
+<!--    </include>-->
+<!--    <include>-->
+<!--      <name>c24</name>-->
+<!--      <pose>6 14 0 0 0 0</pose>-->
+<!--      <uri>model://quad_hole_ground_center</uri>-->
+<!--    </include>-->
+<!--    <include>-->
+<!--      <name>c25</name>-->
+<!--      <pose>14 10 0 0 0 0</pose>-->
+<!--      <uri>model://quad_hole_ground_center</uri>-->
+<!--    </include>-->
+<!--    <include>-->
+<!--      <name>c26</name>-->
+<!--      <pose>6 -2 0 0 0 0</pose>-->
+<!--      <uri>model://quad_hole_ground_center</uri>-->
+<!--    </include>-->
+<!--    <include>-->
+<!--      <name>c27</name>-->
+<!--      <pose>2 -6 0 0 0 0</pose>-->
+<!--      <uri>model://quad_hole_ground_center</uri>-->
+<!--    </include>-->
+<!--    <include>-->
+<!--      <name>c28</name>-->
+<!--      <pose>2 -14 0 0 0 0</pose>-->
+<!--      <uri>model://quad_hole_ground_center</uri>-->
+<!--    </include>-->
+<!--    <include>-->
+<!--      <name>c29</name>-->
+<!--      <pose>-2 -10 0 0 0 0</pose>-->
+<!--      <uri>model://quad_hole_ground_center</uri>-->
+<!--    </include>-->
+
+
+    <include>
+      <name>r1</name>
+      <pose>10 22 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r2</name>
+      <pose>10 26 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r3</name>
+      <pose>6 26 0 0 0 -3.14159</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r4</name>
+      <pose>2 26 0 0 0 1.5708</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r5</name>
+      <pose>6 22 0 0 0 3.1415</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r6</name>
+      <pose>-14 -6 0 0 0 3.1415</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r7</name>
+      <pose>-10 -10 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r8</name>
+      <pose>-10 -14 0 0 0 -1.5708</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r9</name>
+      <pose>-14 -14 0 0 0 3.1415</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r10</name>
+      <pose>-10 -2 0 0 0 3.1415</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r11</name>
+      <pose>-6 -2 0 0 0 -1.5708</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r12</name>
+      <pose>-2 22 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r13</name>
+      <pose>-2 2 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r14</name>
+      <pose>-2 14 0 0 0 -1.5708</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r15</name>
+      <pose>14 -18 0 0 0 3.1415</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r16</name>
+      <pose>-10 18 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r17</name>
+      <pose>-10 22 0 0 0 3.1415</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r18</name>
+      <pose>2 10 0 0 0 -1.5708</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r19</name>
+      <pose>-6 18 0 0 0 -1.5708</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r20</name>
+      <pose>-6 26 0 0 0 -1.5708</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r21</name>
+      <pose>-10 26 0 0 0 3.1415</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r22</name>
+      <pose>-14 18 0 0 0 -1.5708</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r23</name>
+      <pose>2 14 0 0 0 3.1415</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r24</name>
+      <pose>10 14 0 0 0 1.5708</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r25</name>
+      <pose>14 14 0 0 0 1.5708</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r26</name>
+      <pose>10 10 0 0 0 -1.5708</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r27</name>
+      <pose>6 6 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r28</name>
+      <pose>6 2 0 0 0 3.1415</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r28</name>
+      <pose>6 2 0 0 0 3.1415</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r29</name>
+      <pose>2 -10 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r30</name>
+      <pose>-2 -6 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r31</name>
+      <pose>6 -6 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r32</name>
+      <pose>-14 6 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r33</name>
+      <pose>-14 2 0 0 0 -1.5708</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r34</name>
+      <pose>-10 6 0 0 0 -1.5708</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r35</name>
+      <pose>-6 6 0 0 0 -1.5708</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r36</name>
+      <pose>-6 -6 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r37</name>
+      <pose>-6 -10 0 0 0 1.5708</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r38</name>
+      <pose>-6 -14 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r39</name>
+      <pose>-2 -14 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r40</name>
+      <pose>2 -18 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r41</name>
+      <pose>2 -22 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r42</name>
+      <pose>-10 -22 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r43</name>
+      <pose>-14 -22 0 0 0 1.5708</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r44</name>
+      <pose>-14 -26 0 0 0 1.5708</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r45</name>
+      <pose>-2 -26 0 0 0 1.5708</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r46</name>
+      <pose>2 -26 0 0 0 1.5708</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r47</name>
+      <pose>6 -26 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r48</name>
+      <pose>10 -26 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r49</name>
+      <pose>6 -14 0 0 0 3.1415</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r50</name>
+      <pose>10 -14 0 0 0 -1.5708</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r51</name>
+      <pose>14 -10 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r52</name>
+      <pose>14 -6 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r53</name>
+      <pose>10 -6 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r54</name>
+      <pose>10 -10 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r55</name>
+      <pose>10 -2 0 0 0 1.5708</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r56</name>
+      <pose>10 -18 0 0 0 3.1415</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r57</name>
+      <pose>-2 -18 0 0 0 -1.5708</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+
+
+
+    <include>
+      <name>u1</name>
+      <pose>14 26 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_unit</uri>
+    </include>
+    <include>
+      <name>u2</name>
+      <pose>14 22 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_unit</uri>
+    </include>
+    <include>
+      <name>u3</name>
+      <pose>14 18 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_unit</uri>
+    </include>
+    <include>
+      <name>u4</name>
+      <pose>2 22 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_unit</uri>
+    </include>
+    <include>
+      <name>u5</name>
+      <pose>6 18 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_unit</uri>
+    </include>
+    <include>
+      <name>u6</name>
+      <pose>-2 26 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_unit</uri>
+    </include>
+    <include>
+      <name>u7</name>
+      <pose>-14 26 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_unit</uri>
+    </include>
+    <include>
+      <name>u8</name>
+      <pose>-10 2 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_unit</uri>
+    </include>
+    <include>
+      <name>u9</name>
+      <pose>-10 -26 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_unit</uri>
+    </include>
+    <include>
+      <name>u10</name>
+      <pose>-6 -26 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_unit</uri>
+    </include>
+    <include>
+      <name>u11</name>
+      <pose>6 -22 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_unit</uri>
+    </include>
+    <include>
+      <name>u12</name>
+      <pose>10 -22 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_unit</uri>
+    </include>
+    <include>
+      <name>u13</name>
+      <pose>6 -10 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_unit</uri>
+    </include>
+    <include>
+      <name>u14</name>
+      <pose>2 -2 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_unit</uri>
+    </include>
+    <include>
+      <name>u15</name>
+      <pose>2 2 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_unit</uri>
+    </include>
+    <include>
+      <name>u16</name>
+      <pose>2 6 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_unit</uri>
+    </include>
+    <include>
+      <name>u17</name>
+      <pose>10 6 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_unit</uri>
+    </include>
+    <include>
+      <name>u18</name>
+      <pose>14 6 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_unit</uri>
+    </include>
+    <include>
+      <name>u19</name>
+      <pose>14 2 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_unit</uri>
+    </include>
+    <include>
+      <name>u20</name>
+      <pose>14 -2 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_unit</uri>
+    </include>
+    <include>
+      <name>u21</name>
+      <pose>10 2 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_unit</uri>
+    </include>
+    <include>
+      <name>u22</name>
+      <pose>-6 -18 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_unit</uri>
+    </include>
+    <include>
+      <name>u23</name>
+      <pose>-6 22 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_unit</uri>
+    </include>
+    <include>
+      <name>u24</name>
+      <pose>14 -26 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_unit</uri>
+    </include>
+    <include>
+      <name>u25</name>
+      <pose>-14 10 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_unit</uri>
+    </include>
+    <include>
+      <name>u26</name>
+      <pose>-6 2 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_unit</uri>
+    </include>
+
+
+  </model>
+</sdf>

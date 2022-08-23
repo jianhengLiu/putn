@@ -7,8 +7,10 @@ Panels:
         - /Global Options1
         - /AllMap1/Autocompute Value Bounds1
         - /Marker1/Namespaces1
+        - /PointCloud21
+        - /PointCloud22
       Splitter Ratio: 0.40095847845077515
-    Tree Height: 471
+    Tree Height: 537
   - Class: rviz/Selection
     Name: Selection
   - Class: rviz/Tool Properties
@@ -24,7 +26,7 @@ Panels:
     Experimental: false
     Name: Time
     SyncMode: 0
-    SyncSource: ""
+    SyncSource: PointCloud2
 Preferences:
   PromptSaveOnExit: true
 Toolbars:
@@ -32,12 +34,14 @@ Toolbars:
 Visualization Manager:
   Class: ""
   Displays:
-    - Class: rviz/Axes
+    - Alpha: 1
+      Class: rviz/Axes
       Enabled: false
       Length: 2
       Name: Axes
       Radius: 0.05000000074505806
       Reference Frame: <Fixed Frame>
+      Show Trail: false
       Value: false
     - Alpha: 1
       Autocompute Intensity Bounds: true
@@ -97,20 +101,68 @@ Visualization Manager:
       Enabled: true
       Links:
         All Links Enabled: true
-        Expand Joint Details: false
-        Expand Link Details: false
-        Expand Tree: false
-        Link Tree Style: Links in Alphabetic Order
-        base_footprint:
+        D435i_camera_accel_frame:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-        base_link:
+        D435i_camera_accel_optical_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        D435i_camera_bottom_screw_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        D435i_camera_color_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        D435i_camera_color_optical_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        D435i_camera_depth_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        D435i_camera_depth_optical_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        D435i_camera_gyro_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        D435i_camera_gyro_optical_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        D435i_camera_left_ir_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        D435i_camera_left_ir_optical_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        D435i_camera_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        front_bumper_link:
+        D435i_camera_right_ir_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        D435i_camera_right_ir_optical_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Link Tree Style: Links in Alphabetic Order
+        base_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -125,19 +177,10 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        imu_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
         inertial_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-        rear_bumper_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
         rear_left_wheel_link:
           Alpha: 1
           Show Axes: false
@@ -148,25 +191,12 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        top_chassis_link:
+        velodyne:
           Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
-        top_plate_front_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        top_plate_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        top_plate_rear_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-        user_rail_link:
+        velodyne_base_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -182,44 +212,57 @@ Visualization Manager:
       Frame Timeout: 15
       Frames:
         All Enabled: true
-        aft_mapped:
+        D435i_camera_accel_frame:
           Value: true
-        base_footprint:
+        D435i_camera_accel_optical_frame:
+          Value: true
+        D435i_camera_bottom_screw_frame:
+          Value: true
+        D435i_camera_color_frame:
+          Value: true
+        D435i_camera_color_optical_frame:
+          Value: true
+        D435i_camera_depth_frame:
+          Value: true
+        D435i_camera_depth_optical_frame:
+          Value: true
+        D435i_camera_gyro_frame:
+          Value: true
+        D435i_camera_gyro_optical_frame:
+          Value: true
+        D435i_camera_left_ir_frame:
+          Value: true
+        D435i_camera_left_ir_optical_frame:
+          Value: true
+        D435i_camera_link:
+          Value: true
+        D435i_camera_right_ir_frame:
+          Value: true
+        D435i_camera_right_ir_optical_frame:
+          Value: true
+        aft_mapped:
           Value: true
         base_link:
           Value: true
         camera_init:
           Value: true
-        front_bumper_link:
-          Value: true
         front_left_wheel_link:
           Value: true
         front_right_wheel_link:
           Value: true
-        imu_link:
-          Value: true
         inertial_link:
-          Value: true
-        odom:
-          Value: true
-        rear_bumper_link:
           Value: true
         rear_left_wheel_link:
           Value: true
         rear_right_wheel_link:
           Value: true
-        top_chassis_link:
+        velodyne:
           Value: true
-        top_plate_front_link:
-          Value: true
-        top_plate_link:
-          Value: true
-        top_plate_rear_link:
-          Value: true
-        user_rail_link:
+        velodyne_base_link:
           Value: true
         world:
           Value: true
+      Marker Alpha: 1
       Marker Scale: 1
       Name: TF
       Show Arrows: false
@@ -228,22 +271,56 @@ Visualization Manager:
       Tree:
         world:
           camera_init:
-            {}
+            aft_mapped:
+              base_link:
+                D435i_camera_bottom_screw_frame:
+                  D435i_camera_link:
+                    D435i_camera_accel_frame:
+                      D435i_camera_accel_optical_frame:
+                        {}
+                    D435i_camera_depth_frame:
+                      D435i_camera_color_frame:
+                        D435i_camera_color_optical_frame:
+                          {}
+                      D435i_camera_depth_optical_frame:
+                        {}
+                      D435i_camera_left_ir_frame:
+                        D435i_camera_left_ir_optical_frame:
+                          {}
+                      D435i_camera_right_ir_frame:
+                        D435i_camera_right_ir_optical_frame:
+                          {}
+                    D435i_camera_gyro_frame:
+                      D435i_camera_gyro_optical_frame:
+                        {}
+                front_left_wheel_link:
+                  {}
+                front_right_wheel_link:
+                  {}
+                inertial_link:
+                  {}
+                rear_left_wheel_link:
+                  {}
+                rear_right_wheel_link:
+                  {}
+                velodyne_base_link:
+                  velodyne:
+                    {}
       Update Interval: 0
       Value: true
     - Alpha: 1
       Autocompute Intensity Bounds: true
       Autocompute Value Bounds:
-        Max Value: 10
-        Min Value: -10
+        Max Value: 1.0861527919769287
+        Min Value: -1.3411173820495605
         Value: true
       Axis: Z
       Channel Name: intensity
       Class: rviz/PointCloud2
       Color: 255; 255; 255
-      Color Transformer: Intensity
+      Color Transformer: AxisColor
       Decay Time: 0
-      Enabled: false
+      Enabled: true
       Invert Rainbow: false
       Max Color: 255; 255; 255
       Min Color: 0; 0; 0
@@ -258,7 +335,7 @@ Visualization Manager:
       Unreliable: false
       Use Fixed Frame: true
       Use rainbow: true
-      Value: false
+      Value: true
     - Alpha: 1
       Autocompute Intensity Bounds: true
       Autocompute Value Bounds:
@@ -271,7 +348,7 @@ Visualization Manager:
       Color: 255; 255; 255
       Color Transformer: Intensity
       Decay Time: 0
-      Enabled: false
+      Enabled: true
       Invert Rainbow: false
       Max Color: 255; 255; 255
       Min Color: 0; 0; 0
@@ -286,15 +363,15 @@ Visualization Manager:
       Unreliable: false
       Use Fixed Frame: true
       Use rainbow: true
-      Value: false
+      Value: true
     - Class: rviz/MarkerArray
-      Enabled: false
+      Enabled: true
       Marker Topic: /ob_draw
       Name: MarkerArray
       Namespaces:
         {}
       Queue Size: 100
-      Value: false
+      Value: true
     - Alpha: 1
       Buffer Length: 1
       Class: rviz/Path
@@ -312,10 +389,23 @@ Visualization Manager:
         Z: 0
       Pose Color: 255; 85; 255
       Pose Style: None
+      Queue Size: 10
       Radius: 0.029999999329447746
       Shaft Diameter: 0.10000000149011612
       Shaft Length: 0.10000000149011612
       Topic: /local_path
+      Unreliable: false
+      Value: true
+    - Class: rviz/Image
+      Enabled: true
+      Image Topic: /D435i_camera/color/image_raw
+      Max Value: 1
+      Median window: 5
+      Min Value: 0
+      Name: Image
+      Normalize Range: true
+      Queue Size: 2
+      Transport Hint: raw
       Unreliable: false
       Value: true
   Enabled: true
@@ -336,25 +426,25 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 61.3176155090332
+      Distance: 14.107596397399902
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
+      Field of View: 0.7853981852531433
       Focal Point:
-        X: -1.6182304620742798
-        Y: -6.19445276260376
-        Z: 2.1435656547546387
+        X: 4.0686564445495605
+        Y: -1.8288612365722656
+        Z: 2.803666591644287
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 1.399796485900879
+      Pitch: 1.5697963237762451
       Target Frame: <Fixed Frame>
-      Value: Orbit (rviz)
-      Yaw: 5.157408714294434
+      Yaw: 5.222412109375
     Saved:
       - Class: rviz/Orbit
         Distance: 79.24484252929688
@@ -363,6 +453,7 @@ Visualization Manager:
           Stereo Focal Distance: 1
           Swap Stereo Eyes: false
           Value: false
+        Field of View: 0.7853981852531433
         Focal Point:
           X: -13.696435928344727
           Y: -5.965379238128662
@@ -374,7 +465,6 @@ Visualization Manager:
         Near Clip Distance: 0.009999999776482582
         Pitch: 1.1997967958450317
         Target Frame: <Fixed Frame>
-        Value: Orbit (rviz)
         Yaw: 4.557501792907715
       - Angle: -0.004999925382435322
         Class: rviz/TopDownOrtho
@@ -388,7 +478,6 @@ Visualization Manager:
         Near Clip Distance: 0.009999999776482582
         Scale: 17.422441482543945
         Target Frame: <Fixed Frame>
-        Value: TopDownOrtho (rviz)
         X: -8.521479606628418
         Y: -7.693602561950684
       - Angle: 0.01500012632459402
@@ -403,7 +492,6 @@ Visualization Manager:
         Near Clip Distance: 0.009999999776482582
         Scale: 134.6542205810547
         Target Frame: <Fixed Frame>
-        Value: TopDownOrtho (rviz)
         X: -15.386751174926758
         Y: -4.141163349151611
       - Angle: -0.02499423176050186
@@ -418,16 +506,17 @@ Visualization Manager:
         Near Clip Distance: 0.009999999776482582
         Scale: 10.989460945129395
         Target Frame: <Fixed Frame>
-        Value: TopDownOrtho (rviz)
         X: -15.136836051940918
         Y: -11.920226097106934
 Window Geometry:
   Displays:
-    collapsed: false
-  Height: 1025
-  Hide Left Dock: false
+    collapsed: true
+  Height: 1016
+  Hide Left Dock: true
   Hide Right Dock: false
-  QMainWindow State: 000000ff00000000fd00000004000000000000016a00000363fc020000000bfb000000100044006900730070006c006100790073010000003d00000214000000c900fffffffb0000000a00560069006500770073010000025700000149000000a400fffffffb0000001200530065006c0065006300740069006f006e00000000000000009b0000005c00fffffffb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb0000001e0054006f006f006c002000500072006f007000650072007400690065007300000001f8000001c60000005c00fffffffb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261fb0000000a0049006d006100670065020000037e000000e30000016a00000089fb0000000a0049006d0061006700650200000593000001f50000016a000000ed000000010000010f000002c4fc0200000002fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000001200530065006c0065006300740069006f006e010000025a000000b20000000000000000000000020000073f000000ddfc0100000002fb0000000c00430061006d006500720061020000012e00000138000002d9000001a9fb0000000a00560069006500770073030000004e00000080000002e100000197000000030000073d0000003efc0100000002fb0000000800540069006d006501000000000000073d000002eb00fffffffb0000000800540069006d00650100000000000004500000000000000000000005cd0000036300000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  Image:
+    collapsed: false
+  QMainWindow State: 000000ff00000000fd00000004000000000000016a0000035afc020000000cfb000000100044006900730070006c006100790073000000003d00000256000000c900fffffffb0000000a005600690065007700730000000299000000fe000000a400fffffffb0000001200530065006c0065006300740069006f006e00000000000000009b0000005c00fffffffb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb0000001e0054006f006f006c002000500072006f007000650072007400690065007300000001f8000001c60000005c00fffffffb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c00000261fb0000000a0049006d006100670065020000037e000000e30000016a00000089fb0000000a0049006d0061006700650200000593000001f50000016a000000edfb0000000a0049006d006100670065030000029c000002f00000016a000000ea000000010000010f000002c4fc0200000002fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000001200530065006c0065006300740069006f006e010000025a000000b20000000000000000000000020000073f000000ddfc0100000002fb0000000c00430061006d006500720061020000012e00000138000002d9000001a9fb0000000a00560069006500770073030000004e00000080000002e10000019700000003000004f30000003efc0100000002fb0000000800540069006d00650100000000000004f3000002eb00fffffffb0000000800540069006d00650100000000000004500000000000000000000004f30000035a00000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
   Selection:
     collapsed: false
   Time:
@@ -435,7 +524,7 @@ Window Geometry:
   Tool Properties:
     collapsed: false
   Views:
-    collapsed: false
-  Width: 1853
-  X: 67
+    collapsed: true
+  Width: 1267
+  X: 653
   Y: 27

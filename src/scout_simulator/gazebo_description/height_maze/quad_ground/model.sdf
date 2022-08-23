@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="quad_ground">
+    <static>true</static>
+    <link name="ground">
+      <collision name="groundc">
+        <geometry>
+          <box>
+            <size>32 56 0.03</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="groundv">
+        <geometry>
+          <box>
+            <size>32 56 0.03</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://quad_ground/materials/scripts</uri>
+            <uri>model://quad_ground/materials/textures</uri>
+            <name>vrc/quad_ground</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+
+
+  </model>
+</sdf>

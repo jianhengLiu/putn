@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<launch>
+  <env name="GAZEBO_MODEL_PATH" value="${GAZEBO_MODEL_PATH}:$(find gazebo_description)/common_models" />
+  <env name="GAZEBO_MODEL_PATH" value="${GAZEBO_MODEL_PATH}:$(find gazebo_description)/height_maze" />
+  <include file="$(find putn_map)/launch/start.launch">
+    <arg name="world" value="$(find gazebo_description)/height_maze/quad_hill_high.world"/>
+  </include>
+</launch>

@@ -1,0 +1,56 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="quad_hole_ground_corner">
+    <static>true</static>
+    <link name="ground">
+      <pose>0 0.5 0 0 0 0</pose>
+      <collision name="groundc">
+        <geometry>
+          <box>
+            <size>4 3 0.03</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="groundv">
+        <geometry>
+          <box>
+            <size>4 3 0.03</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://quad_hole_ground_corner/materials/scripts</uri>
+            <uri>model://quad_hole_ground_corner/materials/textures</uri>
+            <name>vrc/quad_hole_ground_corner</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+    <link name="ground2">
+      <pose>0.5 -1.5 0 0 0 0</pose>
+      <collision name="groundc2">
+        <geometry>
+          <box>
+            <size>3 1 0.03</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="groundv2">
+        <geometry>
+          <box>
+            <size>3 1 0.03</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://quad_hole_ground_corner/materials/scripts</uri>
+            <uri>model://quad_hole_ground_corner/materials/textures</uri>
+            <name>vrc/quad_hole_ground_corner</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+
+
+  </model>
+</sdf>

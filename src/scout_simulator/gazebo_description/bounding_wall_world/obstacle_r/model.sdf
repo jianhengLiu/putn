@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="obstacle_r">
+    <static>false</static>
+    <link name="link">
+      <inertial>
+        <mass>2.0</mass>
+          <inertia>
+            <ixx>0.25</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>0.25</iyy>
+            <iyz>0</iyz>
+            <izz>0.25</izz>
+          </inertia>
+      </inertial>
+      <collision name="c1">
+        <geometry>
+          <sphere>
+            <radius>0.025</radius>
+          </sphere>
+        </geometry>
+      </collision>
+      <visual name="v1">
+        <geometry>
+          <sphere>
+            <radius>0.02</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <script>
+            <name>Gazebo/Grey</name>
+            <uri>file://media/materials/scripts/gazebo.material</uri>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

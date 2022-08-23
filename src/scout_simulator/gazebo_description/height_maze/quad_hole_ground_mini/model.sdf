@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="quad_hole_ground_mini">
+
+    <include>
+      <name>c1</name>
+      <pose>10 18 0 0 0 -1.5708</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+
+    <include>
+      <name>r1</name>
+      <pose>10 22 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r2</name>
+      <pose>10 26 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r3</name>
+      <pose>6 26 0 0 0 -1.5708</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r4</name>
+      <pose>2 26 0 0 0 1.5708</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r5</name>
+      <pose>6 22 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r6</name>
+      <pose>6 18 0 0 0 -1.5708</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+   <include>
+      <name>r7</name>
+      <pose>2 18 0 0 0 3.1415</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+    <include>
+      <name>r8</name>
+      <pose>14 22 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_corner</uri>
+    </include>
+
+    <include>
+      <name>u1</name>
+      <pose>14 26 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_unit</uri>
+    </include>
+    <include>
+      <name>u3</name>
+      <pose>14 18 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_unit</uri>
+    </include>
+    <include>
+      <name>u4</name>
+      <pose>2 22 0 0 0 0</pose>
+      <uri>model://quad_hole_ground_unit</uri>
+    </include>
+
+
+  </model>
+</sdf>

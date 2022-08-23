@@ -1,0 +1,49 @@
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <model name='quad_map'>
+
+    <include>
+      <pose>-12 0 0 0 0 1.5708</pose>
+      <uri>model://quad_maze</uri>
+    </include>
+
+    <include>
+      <name>t1</name>
+      <pose>21.1 9.36 0 0 0 0</pose>
+      <uri>model://pine_tree</uri>
+    </include>
+    <include>
+      <name>t2</name>
+      <pose>-25.92 -13.81 0 0 0 0</pose>
+      <uri>model://pine_tree</uri>
+    </include>
+    <include>
+      <name>t3</name>
+      <pose>-3.14 -10.62 0 0 0 0</pose>
+      <uri>model://pine_tree</uri>
+    </include>
+    <include>
+      <name>t4</name>
+      <pose>22.49 5.58 0 0 0 0</pose>
+      <uri>model://pine_tree</uri>
+    </include>
+
+    <include>
+      <name>t5</name>
+      <pose>11.97 4.94 0 0 0 0</pose>
+      <uri>model://oak_tree</uri>
+    </include>
+    <include>
+      <name>t6</name>
+      <pose>26.59 -6.45 0 0 0 0</pose>
+      <uri>model://oak_tree</uri>
+    </include>
+    <include>
+      <name>t7</name>
+      <pose>-25.32 -3 0 0 0 0</pose>
+      <uri>model://oak_tree</uri>
+    </include>
+
+
+  </model>
+</sdf>

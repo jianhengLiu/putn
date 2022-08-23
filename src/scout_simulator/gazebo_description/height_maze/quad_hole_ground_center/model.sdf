@@ -1,0 +1,103 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="quad_hole_ground_center">
+    <static>true</static>
+    <link name="ground">
+      <pose>1.5 0 0 0 0 0</pose>
+      <collision name="groundc">
+        <geometry>
+          <box>
+            <size>1 4 0.03</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="groundv">
+        <geometry>
+          <box>
+            <size>1 4 0.03</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://quad_hole_ground_center/materials/scripts</uri>
+            <uri>model://quad_hole_ground_center/materials/textures</uri>
+            <name>vrc/quad_hole_ground_center</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+    <link name="ground2">
+      <pose>-1.5 0 0 0 0 0</pose>
+      <collision name="groundc2">
+        <geometry>
+          <box>
+            <size>1 4 0.03</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="groundv2">
+        <geometry>
+          <box>
+            <size>1 4 0.03</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://quad_hole_ground_center/materials/scripts</uri>
+            <uri>model://quad_hole_ground_center/materials/textures</uri>
+            <name>vrc/quad_hole_ground_center</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+    <link name="ground3">
+      <pose>0 1.5 0 0 0 0</pose>
+      <collision name="groundc3">
+        <geometry>
+          <box>
+            <size>2 1 0.03</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="groundv3">
+        <geometry>
+          <box>
+            <size>2 1 0.03</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://quad_hole_ground_center/materials/scripts</uri>
+            <uri>model://quad_hole_ground_center/materials/textures</uri>
+            <name>vrc/quad_hole_ground_center</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+    <link name="ground4">
+      <pose>0 -1.5 0 0 0 0</pose>
+      <collision name="groundc4">
+        <geometry>
+          <box>
+            <size>2 1 0.03</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="groundv4">
+        <geometry>
+          <box>
+            <size>2 1 0.03</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://quad_hole_ground_center/materials/scripts</uri>
+            <uri>model://quad_hole_ground_center/materials/textures</uri>
+            <name>vrc/quad_hole_ground_center</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+
+  </model>
+</sdf>

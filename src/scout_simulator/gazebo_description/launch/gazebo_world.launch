@@ -1,0 +1,23 @@
+<launch><!--gazebo control velodyne-->
+
+    <env name="GAZEBO_MODEL_PATH" value="${GAZEBO_MODEL_PATH}:$(find gazebo_description)/common_models"/>
+    <env name="GAZEBO_MODEL_PATH" value="${GAZEBO_MODEL_PATH}:$(find gazebo_description)/height_maze"/>
+    <include file="$(find gazebo_ros)/launch/empty_world.launch">
+        <!-- <arg name="world_name" value="$(find gazebo_description)/height_maze/quad_hill_high.world"/> -->
+        <arg name="world_name" value="$(find gazebo_description)/height_maze/mm_test.world"/>
+        <!-- <arg name="world_name" value="$(find mm_description)/world/building_hard_update.world"/> -->
+        <arg name="debug" value="0" />
+        <arg name="gui" value="true" />
+        <arg name="use_sim_time" value="true" />
+        <arg name="headless" value="false" />
+        <arg name="paused" value="false"/>
+    </include>
+ 
+</launch>
+<!-- export GAZEBO_MODEL_PATH=$GAZEBO_MODEL_PATH:~/ubuntu_data/test_data/dv_ws/src/tracked_mobile_manipulator/mm_description/model  -->
+<!-- source ../../devel/setup.zsh-->
+<!-- roslaunch  gazebo_description gazebo_world.launch -->
+
+<!-- source ~/ubuntu_data/test_data/my1_ws/devel/setup.zsh -->
+<!-- roslaunch  gazebo_description  gazebo_world.launch-->
+<!-- roslaunch mr1000  capture_simulation.launch -->

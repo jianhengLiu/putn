@@ -1,0 +1,38 @@
+<?xml version='1.0'?>
+<sdf version='1.5'>
+  <model name='quad_height'>
+    <static>true</static>
+    <link name="bg_link">
+      <collision name="collision">
+        <!-- <pose>0 0 0.75 0 0 -1.5708</pose> -->
+        <pose>8 0 1.35 0 0 -1.5708</pose>
+        <geometry>
+          <mesh>
+            <!-- <scale>0.5 0.5 1.2</scale> -->
+            <scale>2.0 2.0 2.0</scale>
+            <uri>model://quad_height/materials/height.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <!-- <pose>0 0 0.75 0 0 -1.57080</pose> -->
+        <pose>8 0 1.35 0 0 -1.57080</pose>
+        <geometry>
+          <mesh>
+            <!-- <scale>0.5 0.5 1.2</scale> -->
+            <scale>2.0 2.0 2.0</scale>
+            <uri>model://quad_height/materials/height.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://quad_height/materials/scripts</uri>
+            <uri>model://quad_height/materials/textures</uri>
+            <name>vrc/quad_height</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+
+  </model>
+</sdf>
