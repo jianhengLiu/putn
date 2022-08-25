@@ -291,7 +291,7 @@ int main(int argc, char** argv)
     {
       try
       {
-        listener.lookupTransform("/world", "/base_link", ros::Time(0), transform);  //查询变换
+        listener.lookupTransform("world", "base_link", ros::Time(0), transform);  //查询变换
         break;
       }
       catch (tf::TransformException& ex)
